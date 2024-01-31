@@ -28,11 +28,24 @@ Follow these steps to get the app running:
 
 
 ## Endpoints
-   `/`
-   ![image](https://github.com/Szymon440/django_rest_framework_todo/assets/75849710/9fdf12ff-66d4-429e-b551-c0fdb9f6e710)
-   `addTask`
-   ![image](https://github.com/Szymon440/django_rest_framework_todo/assets/75849710/c62c3008-0782-416d-8f3c-431f0fdc1de1)
-   `updateTask/id`
-   ![image](https://github.com/Szymon440/django_rest_framework_todo/assets/75849710/27f3f243-a66d-457e-a123-9fadaae19456)
-   `deleteTask/id`
-   ![image](https://github.com/Szymon440/django_rest_framework_todo/assets/75849710/26ee53fb-17e0-46ce-a9af-2e0ac6e5825a)
+   Base url path `/api/tasks/`
+
+   Get all Tasks
+   `/api/tasks/` -> `GET`
+   ![image](https://github.com/Szymon440/django_rest_framework_todo/assets/75849710/7607df73-0f3d-4418-8f1d-3647c1e40c87)
+   
+   Get specific Task
+   `/api/tasks/id/`  -> `GET`
+   ![image](https://github.com/Szymon440/django_rest_framework_todo/assets/75849710/09b65d82-a8d2-4da2-8e4b-de85dec4b6fd)
+   
+   Add Task
+   `/api/tasks/`  -> `POST`
+   ![image](https://github.com/Szymon440/django_rest_framework_todo/assets/75849710/5d00d608-cb7e-4ca7-a06a-f9defa25f401)
+   
+   Update task
+   `/api/tasks/id/`  -> `PUT`
+   ![image](https://github.com/Szymon440/django_rest_framework_todo/assets/75849710/88e21a53-6a99-43db-899a-4d9a6161bc29)
+
+   Delete task
+   `/api/tasks/id/`  -> `DELETE`
+   ![image](https://github.com/Szymon440/django_rest_framework_todo/assets/75849710/f946da7b-e1e2-4231-9bf5-efe8cb675363)
